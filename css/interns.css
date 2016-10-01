@@ -1,0 +1,363 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: inherit;
+    font-size: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:after, blockquote:before, q:after, q:before {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    color: #333;
+    line-height: 20px;
+    font-family: 'Roboto', 'Source Code Pro';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+}
+a{
+  color: #e535ab;
+  text-decoration: none;
+}
+a:hover {
+    opacity: .5;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+.container-graphql {
+    z-index: 2;
+    display: block;
+    position: relative;
+    width: calc(100% - 30px);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.top-menu{
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px
+}
+.btn-top-menu{
+  float: right;
+      width: 180px;
+      border-radius: 25px;
+      text-align: center;
+      padding: 3px 0px;
+      border: 1px solid #fff;
+      font-size: 13px;
+      color: #fff;
+}
+.graphql header{
+  min-height: 425px;
+  background: -webkit-linear-gradient(315deg, rgb(122, 52, 99) 0%, rgb(161, 53, 206) 1%, rgb(132, 73, 190) 100%);
+  background: -o-linear-gradient(315deg, rgb(122, 52, 99) 0%, rgb(161, 53, 206) 1%, rgb(132, 73, 190) 100%);
+  background: -ms-linear-gradient(315deg, rgb(122, 52, 99) 0%, rgb(161, 53, 206) 1%, rgb(132, 73, 190) 100%);
+  background: -moz-linear-gradient(315deg, rgb(122, 52, 99) 0%, rgb(161, 53, 206) 1%, rgb(132, 73, 190) 100%);
+  background: linear-gradient(135deg, rgb(122, 52, 99) 0%, rgb(161, 53, 206) 1%, rgb(132, 73, 190) 100%);
+  margin-bottom: 40px;
+
+}
+.graphql header:before {
+  z-index: 1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 425px;
+  background-image: url('../images/bg-learn-b.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#banner-graphql{
+  margin-top: 100px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color:#fff;
+}
+#banner-graphql h3{
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 55px;
+}
+#banner-graphql .des-header-graphql{
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.action-resgister-graphql{
+  font-family: 'Source Code Pro';
+  display: block;
+  width: 180px;
+  height: 48px;
+  margin: 15px auto;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 3px;
+  background-color: #e535ab;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+.line-full{
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #eeeeee;
+  margin: 50px 0px 30px 0px;
+}
+.general-block{
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+}
+.general-block .title-block-graphql {
+    display: inline-block;
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.general-block .des-block-graphql {
+    display: inline-block;
+    width: 100%
+    margin-top: 15px;
+    margin-bottom: 45px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.join-graphql h3{
+  font-size: 28px;
+  margin-bottom: 20px;
+  color:#e535ab;
+  line-height: 30px;
+}
+.join-graphql .left-join,
+.join-graphql .right-join{
+  display: inline-block;
+  width: 47%;
+  line-height: 28px;
+  float: left;
+}
+.join-graphql .left-join{
+  margin-right: 6%;
+}
+.solution-block-general{
+  display: inline-block;
+  width: 47%;
+  min-height: 200px;
+  float: left;
+  margin-bottom: 50px;
+}
+.content-solution{
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0px;
+  line-height: 25px;
+}
+.solution-block-general.left{
+  margin-right: 6%;
+}
+.join-solution{
+  display: inline-block;
+  width: 100%;
+}
+.content-letter{
+  min-height: 100px
+}
+.join-solution {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.footer{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0px;
+  background: #eeeeee;
+}
+.footer a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.involved-right{
+  display: inline-block;
+width: 244px;
+float: right;
+padding-left: 35px;
+border-left: 1px solid #eee;
+padding-bottom: 30px;
+}
+.involved-right h3{
+  font-size: 28px;
+  color: #444;
+  margin-bottom: 25px;
+  line-height: 30px
+}
+.title-involved{
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.involved-right ul li a{
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 7px;
+}
+.involved-right ul{
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.tweets-left {
+  display: inline-block;
+  width: calc(100% - 330px);
+  float: left;
+  margin-bottom: 40px;
+}
+.btn-graphql{
+  display: block;
+  width: 265px;
+  height: 48px;
+  margin: 15px auto 7px;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #6b61f1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+.timeline-LoadMore,
+.timeline-Footer.u-cf{
+  display: none!important;
+}
+.twtr-hd, .twtr-ft
+{
+display: none;
+}
+
+.twtr-widget .twtr-tweet {
+border:none!important;
+text-align:left;
+font-family: Tahoma, Geneva, sans-serif;
+font-size:11px;
+}
+@media (max-width:768px) {
+  .join-graphql .left-join{
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 20px
+  }
+  .join-graphql .right-join{
+    width: 100%
+  }
+  .solution-block-general.left{
+    margin-right: 0px;
+
+  }
+  .solution-block-general{
+    width: 100%;
+    min-height: auto
+  }
+  .tweets-left{
+    width: 100%
+  }
+  .involved-right{
+    width: 100%
+  }
+  .block-involved{
+    width: 25%;
+    display: inline-block;
+    float: left;
+  }
+}
+@media (max-width:640px) {
+  .involved-right h3{
+    text-align: center;
+  }
+  .block-involved{
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width:480px) {
+  .general-block .title-block-graphql{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  #banner-graphql h3{
+    font-size: 30px
+  }
+  #banner-graphql .des-header-graphql{
+    font-size: 16px;
+  }
+  .action-resgister-graphql{
+    font-size: 14px
+  }
+  .general-block .des-block-graphql{
+    font-size: 14px;
+    margin-bottom: 20px
+  }
+  .line-full{
+    margin: 35px 0px 5px 0px
+  }
+  .btn-top-menu{
+    width: 130px;
+    font-size: 11px;
+  }
+  .involved-right ul li a,
+  .content-solution,a,
+  .join-graphql .left-join,
+  .join-graphql .right-join,.footer{
+    font-size: 14px
+  }
+}
