@@ -38,7 +38,7 @@ body {
     font-size: 16px;
 }
 a{
-  color: #e535ab;
+  color: #de4f4f;
   text-decoration: none;
 }
 a:hover {
@@ -58,7 +58,8 @@ a:hover {
 .top-menu{
   display: inline-block;
   width: 100%;
-  margin-top: 30px
+  margin-top: 30px;
+  text-align: center;
 }
 .btn-top-menu{
   float: right;
@@ -71,24 +72,12 @@ a:hover {
       color: #fff;
 }
 .graphql header{
-  min-height: 425px;
-  background: -webkit-linear-gradient(315deg, rgb(122, 52, 99) 0%, rgb(161, 53, 206) 1%, rgb(132, 73, 190) 100%);
-  background: -o-linear-gradient(315deg, rgb(122, 52, 99) 0%, rgb(161, 53, 206) 1%, rgb(132, 73, 190) 100%);
-  background: -ms-linear-gradient(315deg, rgb(122, 52, 99) 0%, rgb(161, 53, 206) 1%, rgb(132, 73, 190) 100%);
-  background: -moz-linear-gradient(315deg, rgb(122, 52, 99) 0%, rgb(161, 53, 206) 1%, rgb(132, 73, 190) 100%);
-  background: linear-gradient(135deg, rgb(122, 52, 99) 0%, rgb(161, 53, 206) 1%, rgb(132, 73, 190) 100%);
-  margin-bottom: 40px;
-
-}
-.graphql header:before {
-  z-index: 1;
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 425px;
-  background-image: url('../images/bg-learn-b.png');
+  background-image: url('../images/bg-header-star.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  padding: 70px;
+  margin-bottom: 40px;
 }
 #banner-graphql{
   margin-top: 100px;
@@ -108,26 +97,6 @@ a:hover {
   margin-top: 10px;
   display: inline-block;
   margin-bottom: 10px;
-}
-.action-resgister-graphql{
-  font-family: 'Source Code Pro';
-  display: block;
-  width: 180px;
-  height: 48px;
-  margin: 15px auto;
-  color: #fff;
-  font-weight: 700;
-  border-radius: 3px;
-  background-color: #e535ab;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 48px;
-  letter-spacing: 2px;
-  -webkit-transition: all 0.15s ease;
-  transition: all 0.15s ease;
-  cursor: pointer;
 }
 .line-full{
   display: inline-block;
@@ -394,4 +363,27 @@ font-size:11px;
 .learn-more-solution {
   display: block;
   margin-top: 5px;
+}
+
+.interns-nav {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.interns-nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+.interns-nav a {
+  color: #eee;
+}
+
+.interns-heading {
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  font-size: 35px;
+  margin-top: 15px;
 }
